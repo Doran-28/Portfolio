@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(113, 81, 131);
+    font-family: "Architects Daughter";
+    font-size: 24px;
+}
+
+.mainContainer{
+    width: 95%;
+    margin: auto;
+}
+
+.containerOne{
+    margin-left: 5%;
+}
+
+.containerTwo{
+    display: flex;
+    justify-self: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.containerThree{
+    display: none;
+    position: absolute;
+    top: 26%;
+    left: 40%;
+}
+
+textarea{
+    box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+    outline: none;
+    border: none;
+    width: 275px;
+    height: 275px;
+    padding: 40px 25px 25px 25px;
+}
+
+svg{
+    color: rgb(0, 0, 0);
+}
+
+#checkIcon{
+    position: absolute;
+    right: 17%;
+    top: 4%;
+}
+
+#xIcon{
+    position: absolute;
+    right: 5%;
+    top: 4%;
+}
